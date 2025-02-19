@@ -1,5 +1,5 @@
 // Titles API
-// File: app/api/titles/route.ts
+// app/api/titles/route.ts
 import { auth } from "@/auth";
 import { fetchGenres, fetchTitles } from "@/lib/data";
 import { NextRequest, NextResponse } from "next/server";
