@@ -1,5 +1,5 @@
 // Activities API
-// File: app/api/activities/route.ts
+// app/api/activities/route.ts
 import { auth } from "@/auth";
 import { fetchActivities } from "@/lib/data";
 import { NextRequest, NextResponse } from "next/server";
