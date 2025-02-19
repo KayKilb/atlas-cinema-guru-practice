@@ -1,5 +1,5 @@
 // Add/Remove Favorites
-// File: app/api/favorites/[id]/route.ts
+// app/api/favorites/[id]/route.ts
 import { deleteFavorite, favoriteExists, insertFavorite } from "@/lib/data";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/auth";

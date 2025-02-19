@@ -1,5 +1,5 @@
 // Add/Remove Favorites
-// File: app/api/favorites/route.ts
+// app/api/favorites/route.ts
 import { fetchFavorites } from "@/lib/data";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/auth";
