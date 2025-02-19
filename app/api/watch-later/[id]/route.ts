@@ -1,5 +1,5 @@
 // Add/Remove Watch Later
-// File: app/api/watch-later/[id]/route.ts
+// app/api/watch-later/[id]/route.ts
 import {
   deleteWatchLater,
   insertWatchLater,
