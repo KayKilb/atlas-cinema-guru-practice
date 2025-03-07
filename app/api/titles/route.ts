@@ -32,6 +32,6 @@ export const GET = auth(async (req: NextRequest) => {
   const title = await fetchTitles(page, minYear, maxYear, query, genres, email);
 
   return NextResponse.json({
-    title: title,
+    titles: title,
   });
 });
